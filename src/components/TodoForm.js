@@ -36,7 +36,7 @@ class TodoForm extends Component{
                             name = "title"
                             onChange = {this.handleInput} 
                             className = "form-control"
-                            placeholder = "Title"
+                            placeholder = "TITULO"
                         />
                     </div>
                     <div className = "form-group">
@@ -45,7 +45,7 @@ class TodoForm extends Component{
                             name = "responsible"
                             onChange = {this.handleInput} 
                             className = "form-control"
-                            placeholder = "Responsible"
+                            placeholder = "RESPONSABLE"
                         />
                     </div>
                     <div className = "form-group">
@@ -54,7 +54,7 @@ class TodoForm extends Component{
                             name = "description"
                             onChange = {this.handleInput} 
                             className = "form-control"
-                            placeholder = "Description"
+                            placeholder = "DESCRIPCION"
                         />
                     </div>
                     <div className = "form-group">
@@ -64,9 +64,9 @@ class TodoForm extends Component{
                             className = "form-control"
                             onChange = {this.handleInput} 
                             >
-                            <option>low</option>
-                            <option>medium</option>
-                            <option>high</option>
+                            <option>BAJA</option>
+                            <option>MEDIA</option>
+                            <option>ALTA</option>
                             </select>
                     </div>
                     <button type="submit" className="btn btn-primary">Save</button>
