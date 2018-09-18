@@ -20,6 +20,7 @@ class App extends Component {
       todos: [...this.state.todos,todo]
     })
   }
+
   removeTodo(index){
 
     if(window.confirm("¿Estas seguro de eliminar esta tarjeta?")){
@@ -70,7 +71,7 @@ class App extends Component {
         
           <nav className = "navbar navbar-dark bg-dark">
               <a className = "text-white">
-                Tasks
+                Tareas
                 <span className = "badge badge-pill badge-light ml-2">
                   {this.state.todos.length}
                 </span>
